@@ -1,0 +1,4 @@
+rootProject.name='TCP_UDP_Client'
+include ':app'
+include ':TCPServer'
+include ':UDPServer'

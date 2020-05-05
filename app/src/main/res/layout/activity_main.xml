@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tcpout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TCP Output : " >
+    </TextView>
+
+    <TextView
+        android:id="@+id/udpout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UDP Output : " >
+    </TextView>
+
+    <Button
+        android:id="@+id/tcp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tcp send" >
+    </Button>
+
+    <Button
+        android:id="@+id/udp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="udp send" >
+    </Button>
+
+</LinearLayout>
